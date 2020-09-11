@@ -1,0 +1,14 @@
+{
+  "name": "esbuild-slate-map",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "bundle": "esbuild --bundle --outfile=bundle.js --sourcemap src.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.6.33",
+    "slate": "^0.58.4"
+  }
+}
